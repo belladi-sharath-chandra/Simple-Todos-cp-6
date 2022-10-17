@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffc2a0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  height: 100vh;
+}
+@media screen and (max-width: 576px) {
+  .bg-container {
+    padding: 10px;
+  }
+}
+
+.container {
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0px;
+  }
+}
+.heading {
+  font-size: 40px;
+  color: #ff8542;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+.ul {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  list-style-type: none;
+}
